@@ -88,7 +88,7 @@ header {
 	z-index:999;
 }
 header .main-nav {
-	margin-top:10px;
+	margin-top: 5px;
 	float:right;
 }
 header .main-nav li {
@@ -205,10 +205,11 @@ footer .copyright a:hover {
 #video {
 	content:"";
 	display:block;
-	min-height:300px;
+	min-height:120px;
 	width:100%;
 	text-align:center;
 	box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+
 }
 #video h1 {
 	font-size:64px;
@@ -302,7 +303,7 @@ footer .copyright a:hover {
 	height:16px;
 }
 .work, .home, .contact {
-	background:url("../images/bgwork.jpg");
+	background:url("../images/abstract-net.jpg");
 	background-size:cover;
 }
 @media handheld and (max-width:480px), screen and (max-device-width:480px), screen and (max-width:767px) {
