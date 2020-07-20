@@ -57,10 +57,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:300;
 }
 h1 {
-	font-size:30px;
+	font-size:26px;
 	line-height:1.7em;
 }
 h2 {
+	font-size: 24px;
 	line-height:1.3em;
 }
 h3 {
@@ -68,7 +69,7 @@ h3 {
 	line-height:1.3em;
 }
 img {
-	max-width:80%;
+	max-width:100%;
 }
 .more {
 	background:url("../images/arrow.gif") no-repeat right 50%;
