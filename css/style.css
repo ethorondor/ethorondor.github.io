@@ -364,7 +364,7 @@ div.one-third, div.one-fourth, .copyright {
 	font-size:30px;
 }
 figure {
-    border: thin #c0c0c0 solid;
+    border: thin #1d1b1b solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
