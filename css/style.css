@@ -34,7 +34,7 @@ abbr, acronym {
 	color:#e00966;
 }
 ::-moz-selection {
-color:#e00966;
+color:#0929e0;
 }
 body {
 	font-family:"Open Sans", sans-serif;
@@ -44,7 +44,7 @@ body {
 	padding:0;
 }
 a, a:link {
-	color:#e5e4e4;
+	color:#e4e4e5;
 	text-decoration:none;
 }
 a:hover {
