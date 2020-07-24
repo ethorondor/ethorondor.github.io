@@ -18,7 +18,7 @@ address, caption, cite, dfn, th, var {
 	font-weight:normal
 }
 caption, th {
-	text-align:left
+	text-align:center
 }
 h1, h2, h3, h4, h5, h6 {
 	font-size:100%;
@@ -44,7 +44,7 @@ body {
 	padding:0;
 }
 a, a:link {
-	color:#e00966;
+	color:#e5e4e4;
 	text-decoration:none;
 }
 a:hover {
