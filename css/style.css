@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	margin:0;
 	padding:0
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, footer, header, hgroup, menu, nav, section {
 	display:block
 }
 table {
@@ -356,18 +356,32 @@ div.one-third, div.one-fourth, .copyright {
 	float:none;
 	padding:0 0 0 10px;
 }
-.items{
-	text-align:center;
-	margin:50px auto;}	
-.items figure{
-margin:0px 20px;
-display:inline-block;
-text-decoration:none;
-color:black;}
+
 .copyright {
 	text-align:center;
 }
 #main-content .text-intro h2 {
 	font-size:30px;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 }
