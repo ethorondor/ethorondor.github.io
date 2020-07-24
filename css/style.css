@@ -40,7 +40,7 @@ body {
 	font-family:"Open Sans", sans-serif;
 	font-size:13px;
 	line-height:22px;
-	color:#292725f3;
+	color:#5c5a58f3;
 	padding:0;
 }
 a, a:link {
@@ -382,6 +382,6 @@ figcaption {
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
-    text-align: center;
+    text-align: right;
 }
 }
