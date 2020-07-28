@@ -5,12 +5,14 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel='icon' href='./images/android-chrome-512x512.png' type="image/x-icon/">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
       <header>
         <nav class="main-nav">
           <ul>
-            <li>
+            <li>s
               <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="recession.html">monitoring recessions</a></li>
@@ -26,26 +28,31 @@
 </section>
 <section id="main-content">
   <div class="columns", align=justify>
-    <p>Monitoring recessions is inherently a problem of sequential statistical decision making: upon each arrival of data, a decision is made to either announce the onset of recession or recovery or no sufficient evidence to suggest so. Such decisions will incur two risks: false alarm and delayed detection. The decision-maker will need to strick a balance to achieve optimality. 
-    We developed a monitoring schema that consists of the probability of recession or recovery and a sequential decision function that minimizes the decision-maker's loss function.</p>
+    <p>Monitoring recessions is inherently a problem of sequential statistical decision making: upon each arrival of data, a decision is made to either announce the onset of recession or recovery or no sufficient evidence to suggest so. Such decisions will incur two risks: false alarm and delayed detection. The decision-maker will need to strike a balance to achieve optimality. We developed a monitoring schema that consists of the probability of recession or recovery and a sequential decision rule that minimizes the decision-maker's loss. <cite><a href="li_forthcoming">Li ect.(forthcoming)</a></cite>
+    \( \alpha + \beta \)
+    $$ \inf_{T\in \mathcal{T}} \beta $$
+    </p>
   </div>
   <figure>
     <center>
-          <img src="./images/big_data.png" alt="Monitoring Recession with BBK">
-          <figcaption>Monitoring Recessions with BBK</figcaption>
-    </center>
-
+      <img src="./images/big_data.png" alt="Monitoring Recession with BBK">
+      <figcaption>Monitoring Recessions with BBK</figcaption>
+  </center>
   </figure>
-  <p>
-    We monitoring the COVID-19 induced recession and report the onsite of the recession at March 2020.
-  </p>
+  <p>We monitored the COVID-19 induced recession and reported the onsite of the recession on March 2020. When the probability of recession crosses the sequential stopping rules from below, it is the time to announce the onset of the recession.</p>
   <figure>
-    <center>
-      <img src="./images/peak2020.png" alt="Monitoring Recession in 2020 with BBK",width="200",heigh="80">
+  <center>
+      <img src="./images/peak2020.png" alt="Monitoring Recession in 2020 with BBK">
       <figcaption>Monitoring 2020 Recessions with BBK</figcaption>
-    </center>
-
+  </center>
   </figure>
+  <div class="main-content">
+    <h1 id="References">References<a class="anchor-link" href="References"></a>
+    </h1><p>(<a id="cit-diebold2015financial" href="#call-diebold2015financial">Diebold and Yilmaz, 2015</a>) Francis X Diebold and Kamil Yilmaz, <em>Financial and macroeconomic connectedness: A network approach to measurement and monitoring</em>,  2015.</p>
+    <p>(<a id="cit_liforthcoming" href="li_forthcoming">Li, 1996</a>) Heckerman David, <em>A Tutorial on Learning With Bayesian Networks</em>, Innovations in Bayesian Networks, vol. , number , pp. ,  1996.</p>
+    
+    </div>
 </section>
+
 </body>
 </html>
