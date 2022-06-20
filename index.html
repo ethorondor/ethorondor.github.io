@@ -76,8 +76,7 @@
 				<div class="intro", align=justify>
 					Economics agents often make decisions in real time. As information arrives in real time, the agent needs to make decisions based on information available at the time. Monitoring recessions is one of such problems. Generally speaking, the agent usually is contemplating two actions: acting on the information available or inaction, waiting for more information. Taking prompt action such as announcing the onset of a recession is risky due to the lack of information, but waiting, on the other hand, is also costly.  The agent will need to strike a balance between acting promptly or waiting for more information. One strand of my research has been focused on formulating such economic problems quantitatively.
 
-
-					The second strand of my research focuses on Deep Neural Networks. Deep Neural Network has achieved great success in many applications including image and natural langurage processing. I have developed two Deep Neural Network models: the first is a probabilistic forecast of House Price Appreciation at the MSA level, the second is predicting home value with information from multiple providers. 
+					The second strand of my research focuses on employing Deep Neural Networks to solve economic problems. Deep Neural Network has achieved great success in many applications. I have developed two Deep Neural Network models: the first is a probabilistic forecast of House Price Appreciation at the MSA level, the second is predicting home value by aggregating information from multiple providers with copulas.
 				</div>
 			<h3 class="title mb-2">Published Works</h3>
 			    <div class="item mb-5">
@@ -105,11 +104,11 @@
 					
 							<br/>
 							<h4 class="title mb-4"><a style="color:#34439b" >Forecasting MSA Level House Price Appreciation with Deep Neural Network</a>, Haixi Li</h4>
-						    <div class="intro", align=justify>which consists of two components: the probabilistic detecting statistics of a structural break, and a sequential stopping procedure. We demonstrate the finite sample property and effectiveness of BSPT by comparing its performance with that of CUSUM under a variety of DGPs and in a few economic applications.</div>
+						    <div class="intro", align=justify>High dimensional, correlated time series forecasting has been proved to be challenging with traditional econometric models. Researchers in Amazon developed a Recurrent Neural Network model to tackle this problem. I extended this method to predict HPA at 383 MSAs. To train correlated historical data jointly can improve forecast accuracy.</div>
 						
 							<br/>
 							<h4 class="title mb-4"><a style="color:#34439b" >Home Valuation with Deep Neural Network</a>, Haixi Li</h4>
-						    <div class="intro", align=justify>Structural breaks are pervasive among macroeconomic and financial time series; consequently, forecasts may lose accuracy out of sample, which renders monitoring structural breaks a critical practice. We develop a structural break monitoring schema, Bayesian Sequential Probability Test (BSPT), for dynamic regression models, which consists of two components: the probabilistic detecting statistics of a structural break, and a sequential stopping procedure. We demonstrate the finite sample property and effectiveness of BSPT by comparing its performance with that of CUSUM under a variety of DGPs and in a few economic applications.</div>
+						    <div class="intro", align=justify>Predicting home value is a complex problem since there are multiple providers of information regarding the hedonic features of the home and the latest transaction. The hedonic features may take on different formats including pictures or verbal comments. We developed a Deep Neural Network model that can take in a variety of data input and aggregated three main providers' home valuation through Copulas. This is used to replace over ten thousands of econometric models assuming independency.</div>
 					    </div><!--//media-body-->
 				    </div><!--//media-->
 			    </div><!--//item-->	
