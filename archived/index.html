@@ -1,68 +1,137 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en"> 
 <head>
-<title>Haixi's Hub</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel='icon' href='./images/favicon/android-chrome-512x512.png' type="image/x-icon/">
-</head>
+    <title>Haixi Li's Webpage</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="All opinions expressed here belong to the author.">    
+	<link rel='icon' href='./assets/images/android-chrome-512x512.png' type="image/x-icon/">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-3.css">
+
+</head> 
+
 <body>
-<header>
-  <nav class="main-nav">
-    <ul>
-      <li>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="recession.html">monitoring recessions</a></li>
-          <li><a href="note_and_code.html">my note and code</a></li>
-          <li><a href="writing.html">my writing</a></li>
-          <li><a href="other_passions.html">other passions</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-</header>
-<section id="video" class="home">
-  <h1>Haixi Li</h1>
-  <h2>Senior Economist at Freddie Mac</h2>
-  <h2>haixi.li@outlook.com</h2>
-</section>
-<section id="main-content">
-  <div class="text-intro">
-    <h2>About</h2>
-  </div>
-  <div class="columns features">
-    <div class="columns", align=justify>
-      <p>Haixi Li is a Senior Economist at Freddie Mac. His research interest includes time series econometrics, economic and financial forecasting and Bayesian analysis. He has  published in the International Journal of Forecasting.</p>
-    </div>
-    <div class="columns">
-      <h3>Postgraduate Education</h3>
-      <p>Ph.D in Economics, University of Wisconsin-Madison, USA</p>
-      <p>Master of Arts in Economics, University of Toronto, Canada</p>
-    </div>
-    <div class="columns", align=justify>
-      <h3>Scholarly Activity</h3>
-      <p>My research interest focus on time series econometrics and  forecast with Bayesian methodology.</p>
-      <h4>Selected Publication</h4>
-        <p><a href="https://doi.org/10.1016/j.ijforecast.2020.06.013">Monitoring Recessions: A Bayesian Sequential Quickest Detection Method,</a> Haixi Li, Xuguang s. Sheng and Jingyun Yang, <em>International Journal of Forecasting 2020</em></p>
-        <p>Monitoring business cycles faces two potentially conflicting objectives: accuracy and timeliness. To strike a balance between the dual objectives, we develop a Bayesian sequential quickest detection method to identify turning points in real time and propose a sequential stopping time as a solution. Using four monthly indexes of real economic activity in the US, we evaluate the method's real-time ability to date the past five recessions. The proposed method identifies similar turning point dates as the National Bureau of Economic Research (NBER), with no false alarms, but on average dates peaks 4 months faster and troughs 10 months faster relative to the NBER announcement. The timeliness of our method is also notable compared to the dynamic factor Markov-switching model -- the average lead time is about 5 months in dating peaks and 2 months in dating troughs.</p>
-        <p><a href="https://doi.org/10.1080/13504851.2020.1852163">Dating COVID-Induced Recession in the U.S.,</a> Haixi Li, Xuguang s. Sheng, <em>Applied Economics Letters 2020</em> </p>
-        <p>Abstract: The COVID-induced recession began in March 2020 for the United States. We identify this turning point by applying a sequential quickest detection method to a real-time index of economic activity. Supporting evidence is also found from macroeconomic data releases and stock markets.</p>
-        <p><a href="research.html" class="more">To learn more</a></p>
-      <h4>Working Paper</h4>
-        <p><a href="http://dx.doi.org/10.2139/ssrn.3607315">Monitoring Structural Breaks in Dynamic Regression Models with Bayesian Sequential Probability Test,</a> Haixi Li</p>
-        <p>Abstract:  Structural breaks are pervasive among macroeconomic and financial time series; consequently, forecasts may lose accuracy out of sample, which renders monitoring structural breaks a critical practice. We develop a structural break monitoring schema, Bayesian Sequential Probability Test (BSPT), for dynamic regression models, which consists of two components: the probabilistic detecting statistics of a structural break, and a sequential stopping procedure. We demonstrate the finite sample property and effectiveness of BSPT by comparing its performance with that of CUSUM under a variety of DGPs and in a few economic applications.</p>
-        <p> <a href="https://github.com/ethorondor/BSPT" class= "to learn more" >Github repository of code and data</a> </p>
-    </div>
-    <div class="columns">
-      <h3>Other Passions</h3>
-      <p>There are other aspect of my life that I'd like to share.</p>
-      <p><a href="other_passions.html" class="to learn more">more</a></p>
-    </div>
-  </div>
-</section>
-<footer>
-  <div class="copyright">The opinions expressed in the site are of myself, that does not reflect the view of Freddie Mac</div>
-</footer>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Haixi Li's Webpage</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/IMG_0715.jpg" alt="image" >		
+					
+					<div class="bio mb-3">
+					<div class="intro", align=justify>My name is Haixi Li, I am an Senior Economist at Freddie Mac. My research interest lies in Economis Forecasting, Deep Neural Network, Structural Breaks and Bayesian Analysis.</div>
+					<div class="intro">email: haixi.li@protonmail.com</div>
+					<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="https://twitter.com/HaixiLi3"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/haixi-li-7758b249/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item active">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="blogs.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="faith.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Reformed Theology</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					</li>
+				</ul>
+				
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-dark py-5">
+		    <div class="container text-center">
+			    <h3 class="heading">My Research</h3>		    
+		    </div><!--//container-->
+	    </section>
+	    <section class="blog-list px-3 py-5 p-md-5">
+		    <div class="container">
+				<h3 class="title mb-2">Overview</h3>
+				<div class="intro", align=justify>
+					Economics agents often make decisions in real time. As information arrives in real time, the agent needs to make decisions based on information available at the time. Monitoring recessions is one of such problems. Generally speaking, the agent usually is contemplating two actions: acting on the information available or inaction, waiting for more information. Taking prompt action such as announcing the onset of a recession is risky due to the lack of information, but waiting, on the other hand, is also costly.  The agent will need to strike a balance between acting promptly or waiting for more information. One strand of my research has been focused on formulating such economic problems quantitatively.
+
+					The second strand of my research focuses on employing Deep Neural Networks to solve economic problems. Deep Neural Network has achieved great success in many applications. I have developed two Deep Neural Network models: the first is a probabilistic forecast of House Price Appreciation at the MSA level, the second is predicting home value by aggregating information from multiple providers with copulas.
+				</div>
+				<br/>
+			<h3 class="title mb-2">Published Works</h3>
+			    <div class="item mb-5">
+				    <div class="media">
+					    <div class="media-body">
+						    <h4 class="title mb-4"><a style="color:#34439b" href="https://doi.org/10.1016/j.ijforecast.2020.06.013">Monitoring Recessions: A Bayesian Sequential Quickest Detection Method</a>, Haixi Li, Xuguang s. Sheng and Jingyun Yang, <em>International Journal of Forecasting 2021</em></h4>
+						    <div class="intro", align=justify>Monitoring business cycles faces two potentially conflicting objectives: accuracy and timeliness. To strike a balance between the dual objectives, we develop a Bayesian sequential quickest detection method to identify turning points in real time and propose a sequential stopping time as a solution. Using four monthly indexes of real economic activity in the US, we evaluate the method's real-time ability to date the past five recessions. The proposed method identifies similar turning point dates as the National Bureau of Economic Research (NBER), with no false alarms, but on average dates peaks 4 months faster and troughs 10 months faster relative to the NBER announcement. The timeliness of our method is also notable compared to the dynamic factor Markov-switching model -- the average lead time is about 5 months in dating peaks and 2 months in dating troughs.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    <div class="item mb-5">
+				    <div class="media">
+					    <div class="media-body">
+						    <h4 class="title mb-4"><a style="color:#34439b" href="https://doi.org/10.1080/13504851.2020.1852163">Dating COVID-Induced Recession in the U.S.</a>, Haixi Li, Xuguang s. Sheng, <em>Applied Economics Letters 2020</em> </h4>
+						    <div class="intro",align=justify>The COVID-induced recession began in March 2020 for the United States. We identify this turning point by applying a sequential quickest detection method to a real-time index of economic activity. Supporting evidence is also found from macroeconomic data releases and stock markets.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    <h3 class="title mb-2">Working Papers</h3>
+			    <div class="item mb-5">
+				    <div class="media">
+					    <div class="media-body">
+						    <h4 class="title mb-4"><a style="color:#34439b" href="http://dx.doi.org/10.2139/ssrn.3607315">Monitoring Structural Breaks in Dynamic Regression Models with Bayesian Sequential Probability Test</a>, Haixi Li</h4>
+						    <div class="intro", align=justify>Structural breaks are pervasive among macroeconomic and financial time series; consequently, forecasts may lose accuracy out of sample, which renders monitoring structural breaks a critical practice. We develop a structural break monitoring schema, Bayesian Sequential Probability Test (BSPT), for dynamic regression models, which consists of two components: the probabilistic detecting statistics of a structural break, and a sequential stopping procedure. We demonstrate the finite sample property and effectiveness of BSPT by comparing its performance with that of CUSUM under a variety of DGPs and in a few economic applications.</div>
+					
+							<br/>
+							<h4 class="title mb-4"><a style="color:#34439b" >Forecasting MSA Level House Price Appreciation with Deep Neural Network</a>, Haixi Li</h4>
+						    <div class="intro", align=justify>High dimensional, correlated time series forecasting has been proved to be challenging with traditional econometric models. Researchers in Amazon developed a Recurrent Neural Network model to tackle this problem. I extended this method to predict HPA at 383 MSAs. To train correlated historical data jointly can improve forecast accuracy.</div>
+						
+							<br/>
+							<h4 class="title mb-4"><a style="color:#34439b" >Home Valuation with Deep Neural Network</a>, Haixi Li</h4>
+						    <div class="intro", align=justify>Predicting home value is a complex problem since there are multiple providers of information regarding the hedonic features of the home and the latest transaction. The hedonic features may take on different formats including pictures or verbal comments. We developed a Deep Neural Network model that can take in a variety of data input and aggregated three main providers' home valuation through Copulas. This is used to replace over ten thousands of econometric models assuming independency.</div>
+
+							<br/>
+
+							<h4 class="title mb-4"><a style="color:#34439b" >Measuring Economic Uncertainty with Copulative Deep Neural Networks</a>, with Xuguang Sheng</h4>
+						    <div class="intro", align=justify>A growing body of literature has focused on measuring time-varying economic uncertainty. Some scholars proposed to measure uncertainty with the variance of forecast errors. The variances of forecast errors of individual time series are computed and aggregated to obtain the uncertainty measure. But the time-varying correlation among the forecast errors of the underlying time series contains more important information regarding uncertainty. In this work, we will utilize deep neural networks equipped with Copulas to derive conditional variance and covariance matrix of the forecast errors to measure economic uncertainty.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->	
+		    </div>
+	    </section>
+
+	    <footer class="footer text-center theme-bg-dark py-2">
+		   
+	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">All opinions expressed here belong to the author.</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
 </body>
-</html>
+</html> 
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Haixi Li's Webpage</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="All opinions expressed here belong to the author.">    
+	<link rel='icon' href='./assets/images/android-chrome-512x512.png' type="image/x-icon/">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-3.css">
+
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Haixi Li's Webpage</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/IMG_0715.jpg" alt="image" >		
+					
+					<div class="bio mb-3">
+					<div class="intro", align=justify>My name is Haixi Li, I am an Senior Economist at Freddie Mac. My research lies in Economis Forecasting, Structural Breaks and Bayesian Analysis.</div>
+					<div class="intro">email: haixi.li@outlook.com</div>
+					<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item active">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="blogs.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					</li>
+				</ul>
+				
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+    	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">Monitoring Recessions</h2>
+				    <div class="meta mb-3"><span class="date">Haixi Li</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body", align=justify>
+
+
+                    <p>Monitoring recessions is inherently a problem of sequential statistical decision making: upon each arrival of data, a decision is made to either announce the onset of a recession or recovery or no sufficient evidence to suggest so. Such decisions will incur two risks: false alarm and delayed detection. Furthermore, to reduce one risk, one needs to accept more of the other risk. To achieve optimality, the decision-maker will need to strike a balance between these two risks. <cite><a href="#li_2020">Li et al. (2020)</a></cite> developed a monitoring schema that consists of the probability of recession or recovery and a sequential decision rule that minimizes the decision-maker's Bayes risk function.
+                    </p>
+
+				    <figure class="blog-banner">
+				        <a><img class="img-fluid" src="assets/images/big_data.png" alt="image"></a>
+				        <figcaption class="mt-2 text-center image-caption">Monitoring Recessions with BBK</a></figcaption>
+				    </figure>
+				    
+				    <p>We monitored the COVID-19 induced recession and reported the onsite of the recession on March 2020. When the probability of recession crosses the sequential stopping rules from below, it is the time to announce the onset of the recession.</p>
+
+                    <figure class="blog-banner">
+				        <a><img class="img-fluid" src="assets/images/peak2020.png" alt="image"></a>
+				        <figcaption class="mt-2 text-center image-caption">Monitoring 2020 Recession with BBK</a></figcaption>
+				    </figure>
+
+			<div class="blog-post-body">
+                        <h4 id="References">References<a class="anchor-link" href="References"></a></h4>
+
+                        <p><a id="li_2020"> Li H., Sheng S., Yang J., 2020.</a> <em><a style="color:#34439b" href="https://doi.org/10.1016/j.ijforecast.2020.06.013">Monitoring Recessions: A Bayesian Sequential Quickest Detection Method</a></em>, International Journal of Froecasting</p>
+            </div>
+
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">All opinions expressed here belong to the author.</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+    
+    
+</body>
+</html> 
+
